@@ -65,7 +65,7 @@ public class HotelAppLoginTest {
 	    //throw new io.cucumber.java.PendingException();
 		WebElement location = driver.findElement(By.id("location"));
 		Select value = new Select(location);
-		value.selectByVisibleText("Sydney");
+		value.selectByVisibleText("New York");
 	}
 	
 	@When("Click on the search button")
